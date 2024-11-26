@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html id="the-html" lang="en">
+  <head>
+    <title>Science 10 Formula Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="the-body">
+    <button id="lightmode-btn">Light Mode</button>
+    <button id="darkmode-btn">Dark Mode</button>
+    <h1>Science 10 Formula Sheet</h1>
+
+    <hr />
+
+    <div id="div">
+      <h2>Physics Unit</h2>
+
+      <p id="Rubikfont">
+        The Physics unit has formula for calculating speed, Acceleration, force,
+        work, energy and Efficiency. Here is Every Formula for the Physic Unit:
+      </p>
+
+      <ul>
+        <li>V = d/t</li>
+        <li>a = Vf - Vi/t</li>
+        <li>F = ma</li>
+        <li>Fg = mg</li>
+        <li>W = Fd</li>
+        <li>Ep = mgh</li>
+        <li>Ek = 1/2 mv<sup>2</sup></li>
+        <li>Em = Ek + Ep</li>
+        <li>%Eff = Out/In</li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <!-- Speed formula -->
+    <h2>Speed Formula: unit = m/s or m/s<sup>2</sup></h2>
+    <table>
+      <tr id="table" class="color1">
+        <th>The Formula</th>
+        <th>Definition</th>
+        <th>Calculator</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="img/velocity-formula-new1.png"
+            alt="VelocityFormula"
+            width="250px"
+          />
+        </td>
+        <td width="250px">
+          <p>Velocity is the motion and direction of an object</p>
+          <p>
+            Example: Say a Ball travel 25 Meters and it took 5 seconds to get
+            there, so you would do D/t so 25/5 which equals to 5, so your
+            Velocity is 5
+          </p>
+        </td>
+        <td>
+          <p>Distance <input id="D" type="number" /></p>
+          <p>Time <input id="t" type="number" /></p>
+          <p id="Border1">
+            The Car goes a total of <span id="d-output">_____</span> Meters and
+            it takes the car <span id="t-output">_____</span> seconds to get
+            there so the Velocity would be <span id="v-output">_____</span>
+          </p>
+          <button id="velo-btn">Show Answers</button>
+        </td>
+      </tr>
+
+      <!-- Acceleration Formula -->
+      <tr>
+        <td>
+          <img src="img/A.png" alt="AccerateFormula" width="250px" />
+        </td>
+        <td width="250px">
+          <p>Acceleration is the Change in speed over time</p>
+          <p>
+            Example: Say the trucks starts at a Velocity of 3m/s then speeds up
+            to 10m/s and it took 5 second to get up to that speed so you would
+            do 10 - 3/5s which equals 7/5 which is 1.4 so A = 1.4m/s<sup>2</sup>
+          </p>
+        </td>
+        <td>
+          <p>Vf <input id="Vf" type="number" /></p>
+          <p>Vi <input id="Vi" type="number" /></p>
+          <p>T <input id="t2" type="number" /></p>
+          <p id="Border1">
+            The Football starts at a speed of
+            <span id="vi-output">_____</span> before speeding up to
+            <span id="vf-output">_____</span> and it took
+            <span id="t-output2">_____</span> second to get to that speed so the
+            Acceleration is
+            <span id="a-output">_____</span>
+          </p>
+          <button id="Acce-btn">Show Answers</button>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Force Unit -->
+    <h2>Force Formula: Unit = N</h2>
+    <table>
+      <tr id="table2" class="color1">
+        <th>The Formula</th>
+        <th>Definition</th>
+        <th>Calculator</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="img/force.png" alt="ForceImage" width="250px" />
+        </td>
+        <td width="250px">
+          <p>Force is the push and pull of an object</p>
+          <p>
+            Example: Say Mass which is m is 20 kg and the Acceleration for the
+            object is 5m/s<sup>2</sup> so in order to calculate force you have
+            do 20 multiply 5 which is 100 so force is equal to 100N
+          </p>
+        </td>
+        <td>
+          <p>m <input id="m" type="number" /></p>
+          <p>a <input id="a" type="number" /></p>
+          <p id="Border1">
+            The Mass of a Car is <span id="mass-output">_____</span>kg and the
+            Acceleration speed of the car is
+            <span id="a-output2">_____</span>m/s<sup>2</sup>. What is the force?
+            Force equals to <span id="f-output">_____</span>N
+          </p>
+          <button id="force-btn">Show Answers</button>
+        </td>
+      </tr>
+
+      <!-- Force due to gravity -->
+      <tr>
+        <td>
+          <img
+            src="img/Solution_For_Force_of_Gravity.PNG"
+            alt="ForceGravityImage"
+            width="250px"
+          />
+        </td>
+        <td width="250px">
+          <p>
+            Fg is the force due to gravity so the force from gravity, it is also
+            called weight and gravity on earth is always 9.81m/s<sup>2</sup>
+          </p>
+          <p>
+            Example: Say it give you the mass of 25 kg and the question tells
+            you to calculate the force, so you would get the mass of 25kg and
+            multiply it by the gravity which is 9.81 and it equals 245.25 so
+            your answer would be 245.25 (unless you need to get the right number
+            of digits)
+          </p>
+        </td>
+        <td>
+          <p>m <input id="m2" type="number" /></p>
+          <p id="Border1">
+            The mass of a tennis ball is
+            <span id="mass-output2">_____</span>kg and it launch in the air,
+            calculate the force. force = <span id="fg-output">_____</span>N
+          </p>
+          <button id="gravity-btn">Show Answers</button>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Work/Energy Unit -->
+    <h2>Work/Energy Formula: Unit = J</h2>
+    <table>
+      <tr id="table3" class="color1">
+        <th>The Formula</th>
+        <th>Definition</th>
+        <th>Calculator</th>
+      </tr>
+
+      <!-- Work Formula -->
+      <tr>
+        <td>
+          <img src="img/equationwfd.png" alt="WorkImage" width="250px" />
+        </td>
+        <td width="250px">
+          <p>
+            Work is the amount of energy transferred from one object to another.
+          </p>
+          <p>
+            Example: A guy uses 50N of force to push a boulder 25m, calculate
+            the work being done. so 50x25 which equals to 1250 so the work being
+            done is 1250J
+          </p>
+        </td>
+        <td>
+          <p>F <input id="f-input" type="number" /></p>
+          <p>d <input id="d-input" type="number" /></p>
+          <p id="Border1">
+            a Man uses <span id="f-output2">_____</span>N of force to push a Tv
+            <span id="d-output2">_____</span>meters, calculate the work being
+            done. Work = <span id="w-output">_____</span>J
+          </p>
+          <button id="work-btn">Show Answers</button>
+        </td>
+      </tr>
+
+      <!-- Potential Energy -->
+      <tr>
+        <td>
+          <img src="img/Ep_formula.png" alt="EpImage" width="250px" />
+        </td>
+        <td width="250px">
+          <p>
+            Potential Energy is the abilty of the object to do work due to it's
+            place or condition
+          </p>
+          <p>
+            Example: A ball that sit on a table that is 25m high and the mass of
+            the ball is 2kg. to calculate Ep do 2kg(m) x 9.81(g) x 25(h) which
+            equals to 490.5
+          </p>
+        </td>
+        <td>
+          <p>m <input id="m3" type="number" /></p>
+          <p>h <input id="h-input" type="number" /></p>
+          <p id="Border1">
+            A rock that is on the edge of a cliff, the height of the cliff is
+            <span id="h-output">_____</span>m, the rock mass is
+            <span id="mass-output3">_____</span>kg so the Ep would be
+            <span id="Ep-output">_____</span>J
+          </p>
+          <button id="Ep-btn">Show Answers</button>
+        </td>
+      </tr>
+
+      <!-- kinetic Energy  -->
+      <tr>
+        <td>
+          <img
+            src="img/kinetic-energy-formula-velocity-equation-260nw-2229452447.png"
+            alt="EkImage"
+            width="250px"
+          />
+        </td>
+        <td width="250px">
+          <p>Kinetic Energy is the movement of an object</p>
+          <p>
+            Example: A golf ball has a mass of 25kg and is going at a total
+            speed of 10m/s so the kinetic energy of the ball would be what 1/2
+            or 0.5 (they are the same thing) x 25kg x 10m/s Squared which is
+            1250J
+          </p>
+        </td>
+        <td>
+          <p>m <input id="m4" type="number" /></p>
+          <p>v <input id="v-input" type="number" /></p>
+          <p id="Border1">
+            A golf ball has a mass of <span id="mass-output4">_____</span>kg and
+            is going at a total speed of <span id="v-output2">_____</span>m/s so
+            the kinetic energy of the ball is <span id="Ek-output">_____</span>J
+          </p>
+          <button id="Ek-btn">Show Answers</button>
+        </td>
+      </tr>
+
+      <!-- Mech energy -->
+      <tr>
+        <td>
+          <img src="img/Mechenergy.png" alt="EmImage" width="250px" />
+        </td>
+        <td width="250px">
+          <p>
+            Not much to explain here but it's the same as Ep and Ek just instead
+            this time you are doing both and you got to added both of them
+          </p>
+          <p>Example: Ep is 25J and Ek is 20J so em would be 45J</p>
+        </td>
+        <td>
+          <p>Ep <input id="Ep-input" type="number" /></p>
+          <p>Ek <input id="Ek-input" type="number" /></p>
+          <p id="Border1">
+            The bag of chips has a Potential energy of
+            <span id="Ep-output2">_____</span>J, the bag then fell off of the
+            table and has a kinetic energy of
+            <span id="Ek-output2">_____</span>J so the mechanical energy is
+            <span id="Em-output">_____</span>J
+          </p>
+          <button id="Em-btn">Show Answers</button>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Efficiency unit -->
+    <h2>Efficiency Formula: Unit = %</h2>
+    <table>
+      <tr id="table4" class="color1">
+        <th>The Formula</th>
+        <th>Definition</th>
+        <th>Calculator</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="img/image-of-this-formula-in-Galooli-font-and-style_.png"
+            alt="EfficiencyImage"
+            width="250px"
+          />
+        </td>
+        <td width="250px">
+          <p>Efficiency is the percent amount of energy that gets uses</p>
+          <p>
+            Example: The energy that goes into a light bulb is 200J but only 150
+            of the J is useful and gets turn into light while the other 50 gets
+            wasted to heat so you would do 150/200 to get your percent
+          </p>
+        </td>
+        <td>
+          <p>Workin <input id="Win-input" type="number" /></p>
+          <p>WorkOut <input id="Wout-input" type="number" /></p>
+          <p id="Border1">
+            The light bulb uses <span id="Win-output">_____</span>J of energy
+            and only <span id="Wout-output">_____</span>J is useful so the
+            Efficiency is <span id="percent-output">_____</span>%
+          </p>
+          <button id="Eff-btn">Show Answers</button>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <h4>
+      <a
+        href="https://mrputnam.schoolsites.ca/science-10-eteacher"
+        target="_blank"
+        ><span id="link">Click here to Learn more about science</span></a
+      >
+    </h4>
+  </body>
+</html>

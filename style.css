@@ -1,0 +1,132 @@
+html {
+  padding: 20px 20px;
+  background-color: lightblue;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  border-radius: 15px;
+  border: 4px solid grey;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+td,
+th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+h2,
+p,
+h1,
+h4 {
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 3px 3px 5px orangered;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.4;
+}
+
+button {
+  background-color: lightgrey;
+  transition: background 0.4s;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input {
+  border-radius: 5px;
+}
+
+/* Fonts */
+h1,
+h2 {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
+
+#Rubikfont {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+/* Hovers */
+a:hover {
+  color: green;
+  transition: color 0.4s;
+}
+
+button:hover {
+  background-color: lime;
+  transition: background 0.4s;
+}
+
+/* Divs and Spans */
+div {
+  background: #3cd827;
+  padding: 10px 10px;
+  border: solid 3px #c327d8;
+}
+
+#link {
+  font-family: "Honk", system-ui;
+  font-size: 20px;
+}
+
+/* Id and class */
+#Border1 {
+  border: 2px solid orange;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.color1 {
+  background-color: lightgreen;
+}
+
+#lightmode-btn:hover {
+  background-color: white;
+  transition: background 0.5s;
+}
+
+#darkmode-btn:hover {
+  background-color: black;
+  transition: background 0.5s;
+  color: white;
+}
+
+/* Text Shadow adds a shadow to the text */
+
+/* JS CSS */
+.darkmode {
+  background-color: rgb(7, 7, 65);
+  color: white;
+}
+
+.darkmode2 {
+  background-color: #0b8a13a8;
+}
+
+.darkmode3 {
+  background-color: rgba(92, 88, 88, 0.877);
+}
+
+.darkmode4 {
+  background-color: rgba(35, 170, 35, 0.74);
+}
